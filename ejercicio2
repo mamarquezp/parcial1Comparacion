@@ -1,0 +1,9 @@
+// Ejercicio 2 Parcial1
+let edadPersona = Number( prompt(`Ingrese su edad:`))
+if (edadPersona>=18) {
+    alert(`Es mayor de edad`)
+} else if (edadPersona<18) {    
+    alert(`Es menor de edad`)
+} else {
+    alert(`El valor ingresado no válido`)
+}
