@@ -1,0 +1,9 @@
+// Ejercicio_1_Parcial1
+let numeroAEvaluar = Number( prompt(`Ingrese un número:`))
+if (numeroAEvaluar>0) {
+    alert(`El número ${numeroAEvaluar} es positivo`)
+} else if (numeroAEvaluar<0) {    
+    alert(`El número ${numeroAEvaluar} es negativo`)
+} else {
+     alert(`Cero no está definido como negativo ni positivo`)
+}
