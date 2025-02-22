@@ -4,7 +4,7 @@ if (numeroAEvaluar>0) {
     alert(`El número ${numeroAEvaluar} es positivo`)
 } else if (numeroAEvaluar<0) {    
     alert(`El número ${numeroAEvaluar} es negativo`)
-} else if (numeroAEvaluar=0){
+} else if (numeroAEvaluar==0){
      alert(`Cero no está definido como negativo ni positivo`)
 } else {
     alert(`El valor ingresado no es un Número Real`)
