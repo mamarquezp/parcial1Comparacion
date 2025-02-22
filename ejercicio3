@@ -1,0 +1,10 @@
+// Ejercicio 3 Parcial1
+let numeroParImpar = Number( prompt(`Ingrese un número:`))
+const residuo = numeroParImpar % 2
+if (residuo == 0) {
+    alert(`El número ${numeroParImpar} es par`)
+} else if (residuo > 0) { 
+    alert(`El número ${numeroParImpar} es impar`)
+} else {
+    alert(`El valor ingresado no es válido`)
+}
